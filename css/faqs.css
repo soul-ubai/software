@@ -1,8 +1,6 @@
 *{
 	text-decoration: none;
 }
-
-
 h1{
 	display: flex;
 	flex-direction: column;
@@ -18,13 +16,21 @@ h1{
 	border-radius: 1rem;
 	position: sticky;
 	font-size: 7rem;
-		
-
 }
 .nav1{
 	display: flex;
+   	
+}
+.ul2{
+	display: flex;
 	flex-direction: column;
+	
+}
+.li2{
+	display: flex;
+	border-radius: 1rem;
 	justify-content: center;
+	border: dotted deeppink;
 }
 .nav{
 	display: flex;
@@ -48,24 +54,17 @@ h1{
 
 }
 .menu li a:hover{
-         
          color: indigo;
 }
 .menu li a{
 	display: flex;
 	color: white;
-	
 }
-
-
-
-h3{
+.nav1 ul{
 	display: flex;
-	background: red;
-}
-h4{
-	display: flex;
-	background: teal;
+	flex-direction: column;
+	list-style: none;
+	grid-row-gap: 20px;
 }
 
 h6{
@@ -74,6 +73,10 @@ h6{
 	position: relative;
 	top: 170px;
 
+}
+.li1{
+	display: flex;
+	font-size: 30px;
 }
 .box1{
 	display: flex;
@@ -128,12 +131,14 @@ h2{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	font-size: 30px;
+	font-size: 20px;
+	
 }
 .ul5{
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
+	list-style: none;
 }
 
 
