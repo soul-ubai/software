@@ -1,11 +1,8 @@
-h3{
-	display: flex;
-	background: red;
+*{
+	text-decoration: none;
 }
-h4{
-	display: flex;
-	background: teal;
-}
+
+
 h1{
 	display: flex;
 	flex-direction: column;
@@ -24,10 +21,23 @@ h1{
 		
 
 }
-.menu{
-	background: white;
+.nav1{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: center;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	background-image: url("../images/react-course-17.jpg");
+	background-position: center;
+	
+
+}
+.menu{
+	width: 70%;
+	background: rgba(0, 0,0, 0.2);
+	display: flex;
 	justify-content: space-around;
 	text-align: center;
 	text-decoration: none;
@@ -35,6 +45,27 @@ h1{
 	align-items: center;
 
 }
+.menu li a:hover{
+         
+         color: indigo;
+}
+.menu li a{
+	display: flex;
+	color: white;
+	
+}
+
+
+
+h3{
+	display: flex;
+	background: red;
+}
+h4{
+	display: flex;
+	background: teal;
+}
+
 h6{
 	display: flex;
 	font-size: 20px;

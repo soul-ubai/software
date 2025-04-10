@@ -1,16 +1,8 @@
-.nav1{
-	display: flex;
-	flex-direction: row;
-	gap: 40px;
+*{
+	text-decoration: none;
 }
-.box{
-	color: black;
-	display: flex;
-	flex-direction: column;
-	height: 200px;
-	width: 200px;
-	background: yellow;
-}
+
+
 h1{
 	display: flex;
 	flex-direction: column;
@@ -26,11 +18,26 @@ h1{
 	border-radius: 1rem;
 	position: sticky;
 	font-size: 7rem;
+		
+
+}
+.nav1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	background-image: url("../images/react-course-17.jpg");
+	background-position: center;
+	
+
 }
 .menu{
-	background: white;
+	width: 70%;
+	background: rgba(0, 0,0, 0.2);
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
 	text-decoration: none;
@@ -38,6 +45,24 @@ h1{
 	align-items: center;
 
 }
+.menu li a:hover{
+         
+         color: indigo;
+}
+.menu li a{
+	display: flex;
+	color: white;
+	
+}
+.box{
+	color: black;
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	width: 200px;
+	background: yellow;
+}
+
 .parent{
 	display: flex;
 	flex-direction: column;
