@@ -17,11 +17,36 @@ h1{
 	position: sticky;
 	font-size: 7rem;
 }
+.navi p{
+	display: flex;
+	font-size: 30px;
+}
+.navi{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav6{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav6 p{
+	display: flex;
+	flex-direction: column;
+	font-size: 30px;
+}
+.ul6{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	gap: 7px;
+}
 .nav1{
 	display: flex;
    	
 }
-.ul2{
+.ul7{
 	display: flex;
 	flex-direction: column;
 	
@@ -30,13 +55,14 @@ h1{
 	display: flex;
 	border-radius: 1rem;
 	justify-content: center;
-	border: dotted deeppink;
+	border: dotted pink;
 }
 .nav{
 	display: flex;
 	justify-content: space-between;
 	background-image: url("../images/react-course-17.jpg");
 	background-position: center;
+    background-size: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 	
@@ -85,11 +111,11 @@ h6{
 	align-items: center;
 	text-align: center;
 	color: white;
-	background: blue;
+	background: rgb(14, 14, 241);
 	height: 500px;
 }
 .foot{
-	background: blue;
+	background: rgb(42, 42, 241);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -109,7 +135,7 @@ h6{
 	justify-content: center;
     align-items: center;
 	flex-direction: column;
-	background: yellow;
+	background-color: aliceblue;
 	height: 300px;
 	width: 400px;
 }
@@ -119,9 +145,10 @@ h6{
 	align-items: center;
 	flex-direction: row;
 	height: 300px;
-	width: 800px;
-	background: yellow;
+	width: 950px;
+	background-color:  aliceblue;
 	gap: 20px;
+
 }
 h2{
 	display: flex;
@@ -138,6 +165,26 @@ h2{
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
+	list-style: none;
+}
+.ul1{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.ul2{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.ul3{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.ul4{
+	display: flex;
+	flex-direction: column;
 	list-style: none;
 }
 
