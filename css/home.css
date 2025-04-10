@@ -26,10 +26,18 @@ h1{
 	flex-direction: column;
 	justify-content: center;
 }
-.menu{
-	background: white;
+.nav{
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
+	background-image: url("../images/react-course-17.jpg");
+	background-position: center;
+	
+
+}
+.menu{
+	width: 70%;
+	background: rgba(0, 0,0, 0.2);
+	display: flex;
 	justify-content: space-around;
 	text-align: center;
 	text-decoration: none;
@@ -43,6 +51,7 @@ h1{
 }
 .menu li a{
 	display: flex;
+	color: white;
 	
 }
 .menu li a:hover{
