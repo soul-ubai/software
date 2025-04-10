@@ -1,0 +1,137 @@
+.nav1{
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+}
+.box{
+	color: black;
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	width: 200px;
+	background: yellow;
+}
+h1{
+	display: flex;
+	flex-direction: column;
+	flex-basis: start;
+	padding: 10px;
+	text-align: center;
+	align-items: center;
+	background: blue;
+	color: white;
+    justify-content: center;
+	height: 70px;
+	width: 200px;
+	border-radius: 1rem;
+	position: sticky;
+	font-size: 7rem;
+}
+.menu{
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	align-items: center;
+
+}
+.parent{
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+h6{
+	display: flex;
+	font-size: 20px;
+	position: relative;
+	top: 170px;
+
+}
+.box1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	background: blue;
+	height: 500px;
+}
+
+.box5{
+	color: black;
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	width: 200px;
+	background: yellow;
+	gap: 40px;
+	font-size: 20px;
+     
+}
+.box4{
+	color: black;
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	width: 200px;
+	background: yellow;
+	gap: 40px;
+	font-size: 17px;
+}
+.foot{
+	background: blue;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	color: white;
+	height: 100px;
+	gap: 20px;
+	font-size: 30px;	
+}
+.nav3{
+	display: flex;
+	flex-direction: row;
+}
+.box2{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	flex-direction: column;
+	background: yellow;
+	height: 300px;
+	width: 400px;
+}
+.box3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	height: 300px;
+	width: 800px;
+	background: yellow;
+	gap: 20px;
+}
+h2{
+	display: flex;
+	text-decoration: underline;
+}
+.nav4{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 30px;
+}
+.ul5{
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+
+
