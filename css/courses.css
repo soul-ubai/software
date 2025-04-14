@@ -23,10 +23,14 @@ h1{
 }
 .navf{
 	display: flex;
-	column-gap: 15px;
-	height: 180px;
-	width: 1300px;
-	flex-grow: 20px;
+	column-gap: 30px;
+	image-orientation: flip;
+}
+.boxes{
+	display: flex;
+	height: 300px;
+	width: 800px;
+	background: teal;
 }
 
 .navv{
