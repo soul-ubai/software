@@ -19,14 +19,20 @@ h1{
 	width: 200px;
 	border-radius: 1rem;
 	position: sticky;
-	font-size: 7rem;
-		
-
+	font-size: 7rem;	
 }
-.nav1{
+.navf{
 	display: flex;
-	flex-direction: column;
+	column-gap: 15px;
+	height: 180px;
+	width: 1300px;
+	flex-grow: 20px;
+}
+
+.navv{
+	display: flex;
 	justify-content: center;
+	font-size: 30px;
 }
 .nav{
 	display: flex;
@@ -96,7 +102,7 @@ h6{
 	justify-content: center;
     align-items: center;
 	flex-direction: column;
-	background: yellow;
+	background-color: aliceblue;
 	height: 300px;
 	width: 400px;
 }
@@ -106,10 +112,9 @@ h6{
 	align-items: center;
 	flex-direction: row;
 	height: 300px;
-	width: 800px;
-	background: yellow;
-	gap: 20px;
-}
+	width: 950px;
+	background-color:  aliceblue;
+	gap: 20px;}
 h2{
 	display: flex;
 	text-decoration: underline;
@@ -124,6 +129,26 @@ h2{
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
+	list-style: none;
+}
+.ul1{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.ul2{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.ul3{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.ul4{
+	display: flex;
+	flex-direction: column;
 	list-style: none;
 }
 

@@ -1,5 +1,6 @@
 *{
 	text-decoration: none;
+	list-style: none;
 }
 
 
@@ -18,20 +19,107 @@ h1{
 	border-radius: 1rem;
 	position: sticky;
 	font-size: 7rem;
-		
-
 }
 .nav1{
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    justify-content: space-between;
+    column-gap: 250px;
 }
+.nav1 p{
+    display: flex;
+    position: relative;
+    right: 200px;
+    bottom: 60px;
+    font-size: 30px;
+}
+.classp{
+	display: flex;
+	column-gap: 280PX;
+}
+.classp p{
+    display: flex;
+    position: relative;
+    right: 230px;
+    bottom: 60px;
+    font-size: 20px;
+}
+.classo{
+	display: flex;
+	column-gap: 200PX;
+}
+.classo p{
+    display: flex;
+    position: relative;
+    right: 210px;
+    bottom: 60px;
+    font-size: 20px;
+}
+.class ul{
+	display: flex;
+	grid-row-gap: 20px;
+	font-size: 20px;
+}
+.class2 p{
+	display: flex;
+	grid-row-gap: 20px;
+	font-size: 20px;
+}
+
+
+.class, p, .img{
+	display: flex;
+	flex-direction: column;
+	
+}
+.class1{
+	display: flex;
+	column-gap: 250px;
+}
+
+.img{
+	display: flex;
+	position: relative;
+	left: 1000px;
+	bottom: 300px;
+}
+.class1 ul{
+	display: flex;
+	grid-row-gap: 20px;
+	font-size: 20px;
+}
+.class1{
+	display: flex;
+	column-gap: 250px;
+}
+.img1{
+	display: flex;
+	height: 300px;
+	width: 300px;
+	position: relative;
+	left: 870px;
+	bottom: 500px;
+}
+.class2{
+	display: flex;
+	column-gap: 250px;
+}
+.img2{
+	display: flex;
+	position: relative;
+	bottom: 400px;
+	right: 140px;
+    height: 400px;
+	width: 500px;
+}
+
+
 .nav{
 	display: flex;
 	justify-content: space-between;
 	background-image: url("../images/react-course-17.jpg");
 	background-position: center;
-	
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 .menu{
@@ -110,7 +198,7 @@ h4{
 	justify-content: center;
     align-items: center;
 	flex-direction: column;
-	background: yellow;
+	background-color: aliceblue;
 	height: 300px;
 	width: 400px;
 }
@@ -120,8 +208,8 @@ h4{
 	align-items: center;
 	flex-direction: row;
 	height: 300px;
-	width: 800px;
-	background: yellow;
+	width: 950px;
+	background-color:  aliceblue;
 	gap: 20px;
 }
 h2{
@@ -138,6 +226,26 @@ h2{
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
+	list-style: none;
+}
+.ul1{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.ul2{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.ul3{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+.ul4{
+	display: flex;
+	flex-direction: column;
 	list-style: none;
 }
 
