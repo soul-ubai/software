@@ -20,99 +20,6 @@ h1{
 	position: sticky;
 	font-size: 7rem;
 }
-.nav1{
-	display: flex;
-    justify-content: space-between;
-    column-gap: 250px;
-}
-.nav1 p{
-    display: flex;
-    position: relative;
-    right: 200px;
-    bottom: 60px;
-    font-size: 30px;
-}
-.classp{
-	display: flex;
-	column-gap: 280PX;
-}
-.classp p{
-    display: flex;
-    position: relative;
-    right: 230px;
-    bottom: 60px;
-    font-size: 20px;
-}
-.classo{
-	display: flex;
-	column-gap: 200PX;
-}
-.classo p{
-    display: flex;
-    position: relative;
-    right: 210px;
-    bottom: 60px;
-    font-size: 20px;
-}
-.class ul{
-	display: flex;
-	grid-row-gap: 20px;
-	font-size: 20px;
-}
-.class2 p{
-	display: flex;
-	grid-row-gap: 20px;
-	font-size: 20px;
-}
-
-
-.class, p, .img{
-	display: flex;
-	flex-direction: column;
-	
-}
-.class1{
-	display: flex;
-	column-gap: 250px;
-}
-
-.img{
-	display: flex;
-	position: relative;
-	left: 1000px;
-	bottom: 300px;
-}
-.class1 ul{
-	display: flex;
-	grid-row-gap: 20px;
-	font-size: 20px;
-}
-.class1{
-	display: flex;
-	column-gap: 250px;
-}
-.img1{
-	display: flex;
-	height: 300px;
-	width: 300px;
-	position: relative;
-	left: 870px;
-	bottom: 500px;
-}
-.class2{
-	display: flex;
-	column-gap: 250px;
-}
-.img2{
-	display: flex;
-	position: relative;
-	bottom: 400px;
-	right: 140px;
-    height: 400px;
-	width: 500px;
-}
-
-
 .nav{
 	display: flex;
 	justify-content: space-between;
@@ -120,7 +27,6 @@ h1{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
 .menu{
 	width: 70%;
@@ -140,9 +46,12 @@ h1{
 .menu li a{
 	display: flex;
 	color: white;
-	
 }
-
+.parents{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
 .box1{
 	display: flex;
 	flex-direction: column;
@@ -160,10 +69,102 @@ h6{
 	top: 170px;
 
 }
-.parents{
+.nav1{
+	display: flex;
+    justify-content: space-between;
+    column-gap: 250px;
+}
+.class ul{
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+}
+.class1 ul{
+	display: flex;
+	flex-direction: column;
+}
+.classp{
+	display: flex;
+	column-gap: 280px;
+}
+.classp p{
+    display: flex;
+    position: relative;
+    right: 230px;
+    bottom: 60px;
+    font-size: 20px;
+}
+.classo{
+	display: flex;
+	column-gap: 200PX;
+}
+.classo p{
+    display: flex;
+    position: relative;
+    right: 210px;
+    bottom: 60px;
+    font-size: 20px;
+}
+
+.nav1 p{
+    display: flex;
+    position: relative;
+    right: 200px;
+    bottom: 60px;
+    font-size: 30px;
+}
+
+.class ul{
+	display: flex;
+	grid-row-gap: 20px;
+	font-size: 20px;
+}
+.class2 p{
+	display: flex;
+	grid-row-gap: 20px;
+	font-size: 20px;
+}
+.class, p, .img{
+	display: flex;
+	flex-direction: column;	
+}
+.class1{
+	display: flex;
+	column-gap: 250px;
+}
+.img{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 1000px;
+	bottom: 400px;
+}
+.class1 ul{
+	display: flex;
+	grid-row-gap: 20px;
+	font-size: 20px;
+}
+.class1{
+	display: flex;
+	column-gap: 250px;
+}
+.img1{
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 300px;
+	position: relative;
+	left: 970px;
+	bottom: 700px;
+}
+.class2{
+	display: flex;
+	column-gap: 250px;
+}
+.img2{
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 300px;
 }
 h3{
   display: flex;
@@ -189,7 +190,7 @@ h4{
 	gap: 20px;
 	font-size: 30px;	
 }
-.nav3{
+.navm{
 	display: flex;
 	flex-direction: row;
 }
@@ -208,7 +209,7 @@ h4{
 	align-items: center;
 	flex-direction: row;
 	height: 300px;
-	width: 950px;
+	width: 1150px;
 	background-color:  aliceblue;
 	gap: 20px;
 }
@@ -216,37 +217,19 @@ h2{
 	display: flex;
 	text-decoration: underline;
 }
-.nav4{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	font-size: 20px;
-}
 .ul5{
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
 	list-style: none;
 }
-.ul1{
+.nav4{
 	display: flex;
-	flex-direction: column;
-	list-style: none;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 20px;
 }
-.ul2{
+p{
 	display: flex;
-	flex-direction: column;
-	list-style: none;
+	font-size: 20px;
 }
-.ul3{
-	display: flex;
-	flex-direction: column;
-	list-style: none;
-}
-.ul4{
-	display: flex;
-	flex-direction: column;
-	list-style: none;
-}
-
-

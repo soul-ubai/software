@@ -1,8 +1,15 @@
 *{
 	text-decoration: none;
+	list-style: none;
 }
-
-
+.nav{
+	display: flex;
+	justify-content: space-between;
+	background-image: url("../images/react-course-17.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 h1{
 	display: flex;
 	flex-direction: column;
@@ -19,26 +26,54 @@ h1{
 	position: sticky;
 	font-size: 7rem;
 }
-.navg{
+.menu{
+	width: 70%;
+	background: rgba(0, 0,0, 0.2);
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
-    font-size: 1rem;
-    column-gap: 300px;
-}
-.navg p{
-	display: flex;
-	position: relative;
-	right: 20%;
-	bottom: 13px;
-}
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	align-items: center;
 
+}
+.menu li a:hover{
+         
+         color: indigo;
+}
+.menu li a{
+	display: flex;
+	color: white;
+}
+.box1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	background: rgb(14, 14, 241);
+	height: 500px;
+}
+h6{
+	display: flex;
+	font-size: 20px;
+	position: relative;
+	top: 170px;
+}
 .navr{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	column-gap: 0px;
     font-size: 2rem;
+}
+.navg{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    font-size: 1rem;
+    column-gap: 300px;
 }
 .navd{
 	display: flex;
@@ -80,76 +115,15 @@ h1{
 }
 .img2{
 	display: flex;
-	height: 20%;
-}
+	height: 100px;
+	width: 300px;
 
-.nav1{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-.box1{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	color: white;
-	background: rgb(14, 14, 241);
-	height: 500px;
-}
-.nav{
-	display: flex;
-	justify-content: space-between;
-	background-image: url("../images/react-course-17.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-.menu{
-	width: 70%;
-	background: rgba(0, 0,0, 0.2);
-	display: flex;
-	justify-content: space-around;
-	text-align: center;
-	text-decoration: none;
-	list-style: none;
-	align-items: center;
-
-}
-.menu li a:hover{
-         
-         color: indigo;
-}
-.menu li a{
-	display: flex;
-	color: white;
-	
-}
-.nav2 , li , h5{
-	display: flex;
-	flex-direction: column;
-	list-style: none;
 }
 .nav2{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	list-style: none;
-}
-
-h6{
-	display: flex;
-	font-size: 20px;
-	position: relative;
-	top: 170px;
-}
-.navr{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	column-gap: 0px;
-    font-size: 2rem;
 }
 
 h4{
@@ -177,19 +151,6 @@ h5{
 	text-decoration: none;
 	color: blue;
 }
-
-.p1{
-	background: blue;
-	display: flex;
-	flex-direction: column;
-	height: 60px;
-	width: 250px;
-	color: white;
-	justify-content: center;
-	align-self: center;
-	align-items: center;
-	text-align: center;
-}
 .foot{
 	background: blue;
 	display: flex;
@@ -202,7 +163,7 @@ h5{
 	gap: 20px;
 	font-size: 30px;	
 }
-.nav3{
+.navm{
 	display: flex;
 	flex-direction: row;
 }
@@ -221,7 +182,7 @@ h5{
 	align-items: center;
 	flex-direction: row;
 	height: 300px;
-	width: 950px;
+	width: 1150px;
 	background-color:  aliceblue;
 	gap: 20px;
 }
@@ -229,16 +190,19 @@ h2{
 	display: flex;
 	text-decoration: underline;
 }
-.nav4{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	font-size: 20px;
-}
 .ul5{
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
 	list-style: none;
 }
-
+.nav4{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 20px;
+}
+p{
+	display: flex;
+	font-size: 20px;
+}
