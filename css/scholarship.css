@@ -2,9 +2,15 @@
 	text-decoration: none;
 	list-style: none;
 }
-
-
-h1{
+.nav{
+	display: flex;
+	justify-content: space-between;
+	background-image: url("../images/react-course-17.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.nav h5{
 	display: flex;
 	flex-direction: column;
 	flex-basis: start;
@@ -20,14 +26,7 @@ h1{
 	position: sticky;
 	font-size: 7rem;
 }
-.nav{
-	display: flex;
-	justify-content: space-between;
-	background-image: url("../images/react-course-17.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+
 .menu{
 	width: 70%;
 	background: rgba(0, 0,0, 0.2);
@@ -47,6 +46,7 @@ h1{
 	display: flex;
 	color: white;
 }
+
 .parents{
 	display: flex;
 	flex-direction: column;
@@ -62,66 +62,71 @@ h1{
 	background: blue;
 	height: 500px;
 }
-h6{
+.box1 p{
+	font-size: 25px;
+}
+.box1 h6{
 	display: flex;
-	font-size: 20px;
+	font-size: 25px;
 	position: relative;
-	top: 170px;
-
+	top: 160px;
+}
+.box1 h2{
+	text-decoration: underline;
 }
 .nav1{
 	display: flex;
-    justify-content: space-between;
-    column-gap: 250px;
+	justify-content: space-between;
 }
-.class ul{
-	display: flex;
-	flex-direction: column;
+.nav1 li{
+   font-size: 23px;
 }
-.class1 ul{
-	display: flex;
-	flex-direction: column;
-}
-.classp{
-	display: flex;
-	column-gap: 280px;
-}
-.classp p{
-    display: flex;
-    position: relative;
-    right: 230px;
-    bottom: 60px;
-    font-size: 20px;
-}
-.classo{
-	display: flex;
-	column-gap: 200PX;
-}
-.classo p{
-    display: flex;
-    position: relative;
-    right: 210px;
-    bottom: 60px;
-    font-size: 20px;
-}
-
 .nav1 p{
     display: flex;
     position: relative;
-    right: 200px;
-    bottom: 60px;
+    right: 130px;
+    bottom: 35px;
     font-size: 30px;
 }
 
 .class ul{
 	display: flex;
+	flex-direction: column;
 	grid-row-gap: 20px;
-	font-size: 20px;
+	font-size: 30px;
 }
+.classp{
+	display: flex;
+}
+.classp li{
+	display: flex;
+	font-size: 23px;
+}
+.classp p{
+    display: flex;
+    position: relative;
+    right: 150px;
+    bottom: 60px;
+    font-size: 30px;
+}
+.classo{
+	display: flex;
+}
+.classo p{
+    display: flex;
+    position: relative;
+    right: 110px;
+    bottom: 60px;
+    font-size: 30px;
+}
+.classo li{
+	display: flex;
+	font-size: 23px;
+}
+
 .class2 p{
 	display: flex;
-	grid-row-gap: 20px;
-	font-size: 20px;
+	font-size: 30px;
 }
 .class, p, .img{
 	display: flex;
@@ -135,26 +140,37 @@ h6{
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	left: 1000px;
-	bottom: 400px;
+	height: 150px;
+	width: 150px;
+	left: 1400px;
+	bottom: 300px;
 }
 .class1 ul{
 	display: flex;
-	grid-row-gap: 20px;
-	font-size: 20px;
+	flex-direction: column;
+	gap: 20px;
+	font-size: 30px;
 }
 .class1{
 	display: flex;
-	column-gap: 250px;
 }
 .img1{
 	display: flex;
 	flex-direction: column;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	position: relative;
-	left: 970px;
-	bottom: 700px;
+	left: 1350px;
+	bottom: 410px;
+}
+.img1 li{
+	font-size: 17px;
+}
+.img li{
+	font-size: 17px;
+}
+.img2 li{
+	font-size: 17px;
 }
 .class2{
 	display: flex;
@@ -163,8 +179,14 @@ h6{
 .img2{
 	display: flex;
 	flex-direction: column;
-	height: 300px;
+	height: 270px;
 	width: 300px;
+	position: relative;
+	right: 80px;
+	bottom: 310px;
+}
+.img p{
+	font-size: 30px;
 }
 h3{
   display: flex;
@@ -186,7 +208,7 @@ h4{
 	align-items: center;
 	flex-direction: row;
 	color: white;
-	height: 100px;
+	height: 130px;
 	gap: 20px;
 	font-size: 30px;	
 }
@@ -200,20 +222,27 @@ h4{
     align-items: center;
 	flex-direction: column;
 	background-color: aliceblue;
-	height: 300px;
-	width: 400px;
+	height: 400px;
+	width: 500px;
+	position: relative;
+	bottom: 28px;
 }
 .box3{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
-	height: 300px;
-	width: 1150px;
+	height: 400px;
+	width: 1200px;
 	background-color:  aliceblue;
 	gap: 20px;
+	position: relative;
+	bottom: 28px;
 }
-h2{
+.box3 ul{
+	font-size: 20px;
+}
+.box2 h2{
 	display: flex;
 	text-decoration: underline;
 }
@@ -229,7 +258,7 @@ h2{
 	justify-content: space-between;
 	font-size: 20px;
 }
-p{
+#lastfooter{
 	display: flex;
 	font-size: 20px;
 }

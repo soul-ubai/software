@@ -10,7 +10,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-h1{
+.nav h5{
 	display: flex;
 	flex-direction: column;
 	flex-basis: start;
@@ -24,7 +24,7 @@ h1{
 	width: 200px;
 	border-radius: 1rem;
 	position: sticky;
-	font-size: 7rem;	
+	font-size: 7rem;
 }
 .menu{
 	width: 70%;
@@ -54,11 +54,17 @@ h1{
 	background: blue;
 	height: 500px;
 }
-h6{
+.box1 p{
+	font-size: 20px;
+}
+.box1 h6{
 	display: flex;
 	font-size: 20px;
 	position: relative;
 	top: 170px;
+}
+.box1 h2{
+	text-decoration: underline;
 }
 .navv{
 	display: flex;
@@ -212,7 +218,7 @@ h6{
 	background-color:  aliceblue;
 	gap: 20px;
 }
-h2{
+.box2 h2{
 	display: flex;
 	text-decoration: underline;
 }
@@ -228,7 +234,7 @@ h2{
 	justify-content: space-between;
 	font-size: 20px;
 }
-p{
+#lastfooter{
 	display: flex;
 	font-size: 20px;
 }

@@ -1,7 +1,7 @@
 *{
 	text-decoration: none;
 }
-h1{
+.nav h5{
 	display: flex;
 	flex-direction: column;
 	flex-basis: start;
@@ -92,13 +92,17 @@ h1{
 	list-style: none;
 	grid-row-gap: 20px;
 }
-
-h6{
+.box1 p{
+	font-size: 20px;
+}
+.box1 h6{
 	display: flex;
 	font-size: 20px;
 	position: relative;
 	top: 170px;
-
+}
+.box1 h2{
+	text-decoration: underline;
 }
 .li1{
 	display: flex;
@@ -150,7 +154,7 @@ h6{
 	gap: 20px;
 
 }
-h2{
+.box2 h2{
 	display: flex;
 	text-decoration: underline;
 }
