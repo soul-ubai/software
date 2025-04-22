@@ -1,14 +1,12 @@
 *{
 	text-decoration: none;
+	list-style: none;
 }
 
 
 .nav h5{
 	display: flex;
-	flex-direction: column;
-	flex-basis: start;
 	padding: 10px;
-	text-align: center;
 	align-items: center;
 	background: blue;
 	color: white;
@@ -16,7 +14,6 @@
 	height: 70px;
 	width: 200px;
 	border-radius: 1rem;
-	position: sticky;
 	font-size: 7rem;
 }
 .nav1{
@@ -36,9 +33,6 @@
 	background: rgba(0, 0,0, 0.2);
 	display: flex;
 	justify-content: space-around;
-	text-align: center;
-	text-decoration: none;
-	list-style: none;
 	align-items: center;
 
 }
@@ -150,7 +144,7 @@
 	background-color:  aliceblue;
 	gap: 20px;
 }
-.box2 h2{
+.box3 h2{
 	display: flex;
 	text-decoration: underline;
 }

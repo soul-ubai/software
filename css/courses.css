@@ -12,10 +12,7 @@
 }
 .nav h5{
 	display: flex;
-	flex-direction: column;
-	flex-basis: start;
 	padding: 10px;
-	text-align: center;
 	align-items: center;
 	background: blue;
 	color: white;
@@ -23,7 +20,6 @@
 	height: 70px;
 	width: 200px;
 	border-radius: 1rem;
-	position: sticky;
 	font-size: 7rem;
 }
 .menu{
@@ -31,9 +27,6 @@
 	background: rgba(0, 0,0, 0.2);
 	display: flex;
 	justify-content: space-around;
-	text-align: center;
-	text-decoration: none;
-	list-style: none;
 	align-items: center;
 }
 .menu li a:hover{
@@ -218,7 +211,7 @@
 	background-color:  aliceblue;
 	gap: 20px;
 }
-.box2 h2{
+.box3 h2{
 	display: flex;
 	text-decoration: underline;
 }

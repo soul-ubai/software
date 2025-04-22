@@ -12,10 +12,7 @@
 }
 .nav h5{
 	display: flex;
-	flex-direction: column;
-	flex-basis: start;
 	padding: 10px;
-	text-align: center;
 	align-items: center;
 	background: blue;
 	color: white;
@@ -23,7 +20,6 @@
 	height: 70px;
 	width: 200px;
 	border-radius: 1rem;
-	position: sticky;
 	font-size: 7rem;
 }
 
@@ -32,9 +28,6 @@
 	background: rgba(0, 0,0, 0.2);
 	display: flex;
 	justify-content: space-around;
-	text-align: center;
-	text-decoration: none;
-	list-style: none;
 	align-items: center;
 
 }
@@ -45,12 +38,6 @@
 .menu li a{
 	display: flex;
 	color: white;
-}
-
-.parents{
-	display: flex;
-	flex-direction: column;
-	gap: 30px;
 }
 .box1{
 	display: flex;
@@ -80,11 +67,13 @@
 }
 .nav1 li{
    font-size: 23px;
+   position: relative;
+   top: 10px;
 }
 .nav1 p{
     display: flex;
     position: relative;
-    right: 130px;
+    right: 120px;
     bottom: 35px;
     font-size: 30px;
 }
@@ -105,7 +94,7 @@
 .classp p{
     display: flex;
     position: relative;
-    right: 150px;
+    right: 140px;
     bottom: 60px;
     font-size: 30px;
 }
@@ -115,7 +104,7 @@
 .classo p{
     display: flex;
     position: relative;
-    right: 110px;
+    right: 100px;
     bottom: 60px;
     font-size: 30px;
 }
@@ -130,7 +119,8 @@
 }
 .class, p, .img{
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
+	position: relative;	
 }
 .class1{
 	display: flex;
@@ -142,14 +132,14 @@
 	position: relative;
 	height: 150px;
 	width: 150px;
-	left: 1400px;
+	left: 1300px;
 	bottom: 300px;
 }
 .class1 ul{
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
-	font-size: 30px;
+	gap: 17px;
+	font-size: 25px;
 }
 .class1{
 	display: flex;
@@ -160,8 +150,8 @@
 	height: 200px;
 	width: 200px;
 	position: relative;
-	left: 1350px;
-	bottom: 410px;
+	left: 1250px;
+	bottom: 370px;
 }
 .img1 li{
 	font-size: 17px;
@@ -180,9 +170,9 @@
 	display: flex;
 	flex-direction: column;
 	height: 270px;
-	width: 300px;
+	width: 450px;
 	position: relative;
-	right: 80px;
+	right: 5px;
 	bottom: 310px;
 }
 .img p{
@@ -191,13 +181,13 @@
 h3{
   display: flex;
  flex-direction: column;
- font-size: 50px;
+ font-size: 45px;
  list-style: none;
 }
 h4{
 	display: flex;
  flex-direction: column;
- font-size: 50px;
+ font-size: 45px;
  list-style: none;
 }
 .foot{
@@ -242,7 +232,7 @@ h4{
 .box3 ul{
 	font-size: 20px;
 }
-.box2 h2{
+.box3 h2{
 	display: flex;
 	text-decoration: underline;
 }
